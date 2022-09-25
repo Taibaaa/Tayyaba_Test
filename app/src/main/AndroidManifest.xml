@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.drinks.recipie">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name="com.drinks.recipie.util.PrefsHelper"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_app_icon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_app_icon"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.DrinksRecipeApp">
+        <activity
+            android:name="com.drinks.recipie.ui.MainActivity"
+            android:exported="true"
+            android:windowSoftInputMode="adjustPan|adjustResize"
+            >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

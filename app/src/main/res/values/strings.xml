@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">DrinksRecipesApp</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="drinks_recipe">Drinks Recipe</string>
+    <string name="by_name">By Name</string>
+    <string name="by_first_alphabet">By First Alphabet</string>
+    <string name="home">Home</string>
+    <string name="my_title">Home</string>
+    <string name="no_favourite_recipe">No Favourite Recipe, Add a Recipe to Favorite</string>
+</resources>
